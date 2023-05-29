@@ -1,0 +1,128 @@
+.news_page {
+	margin-top: 50px;
+	font-family: BankGothic RUSS Medium;
+}
+
+.news_page__title {
+	text-align: center;
+	text-transform: uppercase;
+	color: #163198;
+	margin-top: 100px;
+	font-size: 45px;
+	font-family: FreeSetC Regular, serif;
+	font-weight: 600;
+}
+
+.news_container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+	margin-top: 20px;
+	font-family: "Roboto", sans-serif;
+	color: #10182f;
+}
+
+.news_wrapper {
+	display: flex;
+	width: 1040px;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+
+.news {
+	align-self: flex-start;
+	position: relative;
+	width: 325px;
+	min-width: 275px;
+	height: 463px;
+	margin: 1.25rem 0.75rem;
+	background: white;
+	transition: all 300ms ease-in-out;
+	margin: 10px;
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+	overflow: hidden;
+	width: 300px;
+}
+
+.news:hover {
+	cursor: pointer;
+	box-shadow: 0px 15px 35px rgba(227, 252, 239, 0.1), 0px 5px 15px rgba(0, 0, 0, 0.07);
+	transform: scale(1.025);
+}
+
+.news_header img {
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+}
+
+.news_body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	padding: 20px;
+	min-height: 250px;
+}
+
+.news_body p {
+	font-size: 13px;
+	margin: 0 0 40px;
+}
+
+.date {
+	display: flex;
+	margin-top: auto;
+}
+
+.date_text small {
+	color: #545d7a;
+}
+
+/* Новость */
+/* ///////////////////////////////////////////////////////////////// */
+
+.result {
+	background-color: #fff;
+	margin-top: 20px;
+}
+
+.header_results {
+	text-align: center;
+	font-size: 32px;
+	font-weight: bold;
+	color: #266b90;
+	padding-top: 110px;
+}
+
+.title_result {
+	text-align: center;
+	font-size: 24px;
+	color: #266b90;
+}
+
+.text_result {
+	font-size: 23px;
+	margin-top: 30px;
+}
+
+.text_result p {
+	color: #000000;
+}
+
+.text_result a {
+	color: cornflowerblue;
+}
+
+.text_result img {
+	margin-top: 50px;
+	max-width: 500px;
+	width: 100%;
+	display: block;
+	margin: 50px auto 50px;
+	margin-bottom: 50px;
+	border: 1px solid #000000;
+}
