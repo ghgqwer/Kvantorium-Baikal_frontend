@@ -19,29 +19,29 @@
 	<div class="wrapper__body">
 		<header class="header">
 			<div class="container header__container">
-				<div class="menu-burger__header">
+				<div class="burger__header">
 					<span></span>
-					<a href="index1.html" class="header__logo">
+					<a href="main.html" class="header__logo">
 						<img src="img/logokvant.png" alt="">
 					</a>
 				</div>
 				<div class="header__mobile">
-					<a href="index.html" class="header__logo__mobile">
+					<a href="main.html" class="header__logo__mobile">
 						<img src="img/header__logo__mobile.png" alt="">
 					</a>
-					<a href="index.html" class="header__logo__mobile2">
+					<a href="main.html" class="header__logo__mobile2">
 						<img src="img/header__logo__mobile2.png" alt="">
 					</a>
-					<a href="index.html" class="header__logo__mobile3">
+					<a href="main.html" class="header__logo__mobile3">
 						<img src="img/header__logo__mobile3.png" alt="">
 					</a>
 				</div>
-				<nav class="header__nav">
+				<nav class="header__block">
 					<ul class="menu header__menu">
-						<li class="active"><a href="index1.html" class="menu__item">Главная</a></li>
-						<li><a href="schedule1.html" class="menu__item">Расписание</a></li>
-						<li><a href="index1.html" class="menu__item">Сотрудники</a></li>
-						<li><a href="qestions1.html" class="menu__item">FAQ</a></li>
+						<li class="active"><a href="main.html" class="menu__item">Главная</a></li>
+						<li><a href="schedule.html" class="menu__item">Расписание</a></li>
+						<li><a href="cooperators.html" class="menu__item">Сотрудники</a></li>
+						<li><a href="qestions.html" class="menu__item">FAQ</a></li>
 						<li><a href="news_page.html" class="menu__item">Новости</a></li>
 						<li><a href="contact.html" class="menu__item">Контакты</a></li>
 					</ul>
@@ -49,7 +49,7 @@
 			</div>
 		</header>
 
-		<div class="background-image" style="background-image: url('img/energy_background.jpg');">
+		<div class="background-image">
 			<div class="overlay">
 				<div class="img_wrapper">
 					<img src="img/квантумы/энерджи.png" alt="Small image" style="">
@@ -59,7 +59,22 @@
 					знаний по кинематической физике, физике химических источников тока, освоение основ электротехники.</p>
 			</div>
 		</div>
+		<style>
+			.background-image {
+				background-image: url('img/energy_background.JPG');
+			}
 
+			@media (max-width:550px) {
+				.background-image {
+					background-image: none;
+					background-color: #aa7cff;
+				}
+
+				.overlay h1 {
+					font-size: 38px;
+				}
+			}
+		</style>
 		<div class="kvant_container">
 			<div class="avtokvant__achievements">
 				<div class="avtokvant__achievements_text">

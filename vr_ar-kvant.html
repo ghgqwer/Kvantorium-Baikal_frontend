@@ -49,15 +49,27 @@
 			</div>
 		</header>
 
-		<div class="background-image" style="background-image: url('img/vr-ar_background.jpg');">
+		<div class="background-image">
+			<style>
+				.background-image {
+					background-image: url('img/vr-ar_background.jpg');
+				}
+
+				@media (max-width:550px) {
+					.background-image {
+						background-image: none;
+						background-color: #66ccf4;
+					}
+				}
+			</style>
 			<div class="overlay">
 				<div class="img_wrapper">
 					<img src="img/квантумы/виар.png" alt="Small image" style="">
 				</div>
 				<h1 style="margin-bottom: 10px;">VR/AR-квантум</h1>
 				<p style="max-width:1200px">В процессе учебного курса обучающиеся познакомятся с новейшими устройствами
-					высокотехнологичного оборудования по виртуальной и дополненной реальности, освоят навыки инженерного и
-					дизайнерского 3D моделирования в современных программных продуктах.</p>
+					высокотехнологичного оборудования по VR и AR реальности, освоят навыки
+					дизайнерского 3D моделирования</p>
 			</div>
 		</div>
 

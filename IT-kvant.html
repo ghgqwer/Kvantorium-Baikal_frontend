@@ -49,7 +49,19 @@
 			</div>
 		</header>
 
-		<div class="background-image" style="background-image: url('img/it_background.jpg');">
+		<div class="background-image">
+			<style>
+				.background-image {
+					background-image: url('img/it_background.JPG');
+				}
+
+				@media (max-width:550px) {
+					.background-image {
+						background-image: none;
+						background-color: #2572e5;
+					}
+				}
+			</style>
 			<div class="overlay">
 				<div class="img_wrapper">
 					<img src="img/квантумы/айти.png" alt="Small image" style="">
@@ -62,17 +74,6 @@
 		</div>
 
 		<div class="kvant_container">
-			<!-- <div class="block">
-				<img src="img/it_kvant.png" alt="Image" class="block__img">
-				<div class="block__text">
-					<h2 class="block__title">IT-квантум</h2>
-					<p class="block__description">IT-квантум направлен на приобретение обучающимися фундаментальных знаний в
-						сфере информационных технологий, а также освоение перспективных направлений: интернет вещей (IoT),
-						машинное обучение (ML), блокчейн, информационная безопасность и др. посредством работы в команде с
-						использованием кейс-технологий.</p>
-				</div>
-			</div> -->
-
 			<div class="avtokvant__achievements">
 				<div class="avtokvant__achievements_text">
 					<h1>О КВАНТУМЕ</h1>

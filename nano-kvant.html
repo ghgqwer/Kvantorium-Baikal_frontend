@@ -49,7 +49,19 @@
 			</div>
 		</header>
 
-		<div class="background-image" style="background-image: url('img/nano_background.jpg');">
+		<div class="background-image">
+			<style>
+				.background-image {
+					background-image: url('img/nano_background.JPG');
+				}
+
+				@media (max-width:550px) {
+					.background-image {
+						background-image: none;
+						background-color: #a3c9fa;
+					}
+				}
+			</style>
 			<div class="overlay">
 				<div class="img_wrapper">
 					<img src="img/квантумы/Наноквантум.png" alt="Small image" style="">

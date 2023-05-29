@@ -49,15 +49,26 @@
 			</div>
 		</header>
 
-		<div class="background-image" style="background-image: url('img/shbk_background.jpg');">
+		<div class="background-image">
+			<style>
+				.background-image {
+					background-image: url('img/shbk_background.jpg');
+				}
+
+				@media (max-width:550px) {
+					.background-image {
+						background-image: none;
+						background-color: #23c290;
+					}
+				}
+			</style>
 			<div class="overlay">
 				<div class="img_wrapper">
 					<img src="img/квантумы/лого-кв.png" alt="Small image" style="">
 				</div>
 				<h1 style="margin-bottom: 10px;">Школа Будущего Кванторианца</h1>
 				<p style="max-width:1200px">«Подготовительный модуль» – это уникальная программа для ребят, которая
-					охватывает все направления, представленные в технопарке: IT-квантум, Геоквантум, Наноквантум,
-					Энерджиквантум, Биоквантум, VR/AR и Хайтек.</p>
+					охватывает все направления, представленные в технопарке.</p>
 			</div>
 		</div>
 
